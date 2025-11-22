@@ -6,7 +6,7 @@ const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL || "http://localhost:4000";
 
 const api = axios.create({
-  baseURL: API_BASE_URL, // Tất cả request sẽ dựa trên baseURL này
+  baseURL: "https://food-ordering-system-qmkj.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
