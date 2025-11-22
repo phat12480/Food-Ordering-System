@@ -1,6 +1,7 @@
 // src/App.jsx
 import { useEffect, useState } from "react";
 import api from "./api/apiClient";
+import ChatWidget from "./components/ChatWidget";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -219,6 +220,7 @@ function App() {
           </ul>
         )}
       </section>
+      <ChatWidget />
     </div>
   );
 }
